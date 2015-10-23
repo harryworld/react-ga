@@ -106,7 +106,7 @@ var reactGA = {
        '//www.google-analytics.com/analytics.js', 'ga');
     /* jshint ignore:end */
 
-    ga('create', gaTrackingID, 'auto');
+    ga('create', gaTrackingID, 'auto', options);
   },
 
   /**
